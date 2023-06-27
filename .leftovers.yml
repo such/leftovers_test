@@ -1,0 +1,10 @@
+include_paths:
+  - test.yml
+
+dynamic:
+  - document: true
+    path: test.yml
+    calls:
+      argument: class_name
+      nested:
+        argument: '*'
